@@ -1,0 +1,29 @@
+body {
+    background-color: #fff2cf;
+}
+
+#description-container img {
+    width: 100%;
+}
+
+#description-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myCard {
+    margin: 10px 10px;
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.myCard span {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 10px;
+}

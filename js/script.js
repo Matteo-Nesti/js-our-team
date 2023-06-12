@@ -47,10 +47,14 @@ let description = "";
 
 for (const info of team) {
   description += `
-    <img src="img/${info.profilePic}" alt="profile-pic">
-    <span>${info.firstName}</span>
-    <span>${info.lastName}</span>
-    <p>${info.mantion}</p>
+    <div class="myCard">
+        <img src="img/${info.profilePic}" alt="profile-pic">
+            <div>
+            <span>${info.firstName}</span>
+            <span>${info.lastName}</span>
+            <p>${info.mantion}</p>
+        </div>
+    </div>
     `;
   // stampo in console per verificare
   console.log(description);
